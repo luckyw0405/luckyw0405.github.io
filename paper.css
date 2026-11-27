@@ -30,3 +30,5 @@ a[href]{transition:color .18s,text-decoration-color .18s,background-color .18s,t
 @media(max-width:740px){#casual-list.casual-grid{grid-template-columns:minmax(0,1fr);gap:22px}#casual-list>.featured-project{display:flex;grid-column:1/-1}#casual-list>.featured-project>.project-image{height:340px;max-height:none;min-height:0;align-self:stretch;background:#e2d5b8;border-bottom:1px solid var(--line)}#casual-list>.featured-project>.project-content{border-left:0;padding:25px;gap:14px}#casual-list>.featured-project h3{font-size:27px}#casual-list>.featured-project .metric-row{gap:35px}#casual-list>.featured-project .metric-row strong{font-size:35px}#casual-list>.project-card:not(.featured-project) .project-content{min-height:0}#casual-list>.project-card:not(.featured-project) .project-image{height:270px}}
 @media(prefers-reduced-motion:reduce){a[href]{transition:none}}
 @media(min-width:741px){.persona:nth-child(3n+1){border-left:0}.persona:nth-child(n+4){border-top:1px solid var(--line)}}
+
+@media(min-width:741px){.tool-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
